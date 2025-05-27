@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# URL del archivo a descargar
 url="https://example.com/archivo.zip"
 
-# Directorio de destino
+# Destino
 directorio_destino="$HOME/descargas"
 
 if command -v wget &> /dev/null; then
