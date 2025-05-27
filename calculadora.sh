@@ -1,8 +1,5 @@
 #!/bin/bash
-
-#sudo apt install bc;
-
-# Función para mostrar el menú principal
+#este script usa bc para la calculadora
 mostrar_menu() {
     echo "============================"
     echo "   Calculadora en Bash"
@@ -21,13 +18,12 @@ mostrar_menu() {
     echo -n "Selecciona una opción: "
 }
 
-# Bucle principal
 while true; do
     mostrar_menu
     read opcion
 
     case $opcion in
-        1)  # Suma
+        1) 
             echo -n "Introduce el primer número: "
             read num1
             echo -n "Introduce el segundo número: "
